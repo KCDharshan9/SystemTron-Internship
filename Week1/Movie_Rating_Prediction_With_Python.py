@@ -8,6 +8,7 @@ import numpy as np
 import pandas as pd
 import ast
 import pickle
+from pathlib import Path
 from sklearn.feature_extraction.text import CountVectorizer
 from nltk.stem.porter import PorterStemmer
 from sklearn.metrics.pairwise import cosine_similarity as cs
@@ -16,8 +17,10 @@ from sklearn.metrics.pairwise import cosine_similarity as cs
 # In[2]:
 
 
-mvs = pd.read_csv('tmdb_5000_movies.csv')
-crd = pd.read_csv('tmdb_5000_credits.csv')
+BASE_DIR = Path(__file__).parent
+
+mvs = pd.read_csv(BASE_DIR / "tmdb_5000_movies.csv")
+crd = pd.read_csv(BASE_DIR / "tmdb_5000_credits.csv")
 
 
 # In[3]:
