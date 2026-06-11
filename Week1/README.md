@@ -6,8 +6,8 @@ The app suggests similar movies based on tags created from movie overview, genre
 ## Files
 
 - `app.py` - Streamlit application front end.
-- `Movie_Rating_Prediction_With_Python.py` - Python script that builds the recommendation model and defines `recommend()`.
-- `Movie_Rating_Prediction_With_Python.ipynb` - Notebook with the preprocessing and model creation steps.
+- `Movie_Recommendation_System_With_Python.py` - Python script that builds the recommendation model and defines `recommend()`.
+- `Movie_Recommendation_System_With_Python.ipynb` - Notebook with the preprocessing and model creation steps.
 - `movies.pkl` - Pickled movie DataFrame used by the app.
 - `tmdb_5000_movies.csv` - Movie dataset file.
 - `tmdb_5000_credits.csv` - Credits dataset file.
@@ -56,11 +56,11 @@ Then open the local URL shown in the terminal.
 
 ## If you want to rebuild the model
 
-1. Open `Movie_Rating_Prediction_With_Python.ipynb` or run `Movie_Rating_Prediction_With_Python.py`.
+1. Open `Movie_Recommendation_System_With_Python.ipynb` or run `Movie_Recommendation_System_With_Python.py`.
 2. Make sure the CSV files are in the same folder.
 3. Generate `movies.pkl` again with the same preprocessing steps.
 
 ## Notes
 
-- `app.py` loads `movies.pkl` and calls `recommend()` from `Movie_Rating_Prediction_With_Python.py`.
+- `app.py` loads `movies.pkl` and calls `recommend()` from `Movie_Recommendation_System_With_Python.py`.
 - Keep `movies.pkl` in the same folder as `app.py`.
