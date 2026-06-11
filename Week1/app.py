@@ -1,6 +1,6 @@
 import streamlit as st
 import pickle
-import Movie_Rating_Prediction_With_Python as nb
+import Movie_Recommendation_System_With_Python as nb
 
 movies_list = pickle.load(open('movies.pkl', 'rb'))
 movies_list = movies_list['title'].values
