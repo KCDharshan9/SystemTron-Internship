@@ -30,7 +30,7 @@ The dataset contains customer demographic information, financial details, and pr
 - Studied customer age and balance distributions.
 - Examined job and marital status distributions.
 - Compared customer characteristics with subscription outcomes.
-- Used count plots, histograms, box plots, and correlation heatmaps to identify patterns and insights.
+- Used count plots, histograms, box plots, and correlation heatmaps to identify patterns and insights in the dataset.
 
 ## Model Building
 

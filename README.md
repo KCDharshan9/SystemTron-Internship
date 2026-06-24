@@ -16,7 +16,7 @@ This repository contains projects completed during the SystemTron data science i
 - Includes a few main charts saved in the `images` folder for quick reference.
 
 ## Week 3
-- Decision Tree classification project using the UCI Bank Marketing dataset.
+- Week3 was about Decision Tree classification project using the UCI Bank Marketing dataset.
 - Built a model to predict customer subscription to term deposits based on demographic and behavioral data.
 - Performed preprocessing, EDA, and model evaluation using accuracy, confusion matrix, and classification metrics.
 - Analyzed customer characteristics and campaign data to identify subscription patterns.
