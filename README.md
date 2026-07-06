@@ -20,3 +20,8 @@ This repository contains projects completed during the SystemTron data science i
 - Built a model to predict customer subscription to term deposits based on demographic and behavioral data.
 - Performed preprocessing, EDA, and model evaluation using accuracy, confusion matrix, and classification metrics.
 - Analyzed customer characteristics and campaign data to identify subscription patterns.
+
+## Week 4
+- Week4 focuses on the classic Iris flower classification problem using a Decision Tree Classifier.
+- Worked with the Iris dataset to classify flower species based on sepal and petal measurements.
+- Covered data loading, feature exploration, train-test splitting, model training, and evaluation.
